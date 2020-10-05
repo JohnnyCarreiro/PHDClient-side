@@ -1,0 +1,40 @@
+.contactInfos{
+    display:flex;
+    flex-direction: column;
+    padding: 10px 0;
+    margin-bottom:10px;
+}
+.contactInfos > p {
+    font: 400 16px Roboto;
+    line-height: 28px;
+}
+.contactInfos > p > span{
+    font: 700 18px Roboto;
+    color: #f1f2f1;
+}
+.contactInfos p span a{
+    color:#f1f2f1  ;
+}
+.contactInfos > button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    cursor:pointer;
+    font: 600 18px Roboto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: #25D366;
+   
+}
+.contactInfos > button > a{
+    color:#fff;
+}
+.contactInfos button:hover{
+    background: #DCF8C6;  
+    color:#1d1d1d;
+}
+.contactInfos button:hover a{
+    color:#1d1d1d;
+}
